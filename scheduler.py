@@ -164,7 +164,8 @@ def get_employee_score(emp, shift, hours_worked, worked_days, week_seed):
         if shift["day"] in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]:
             score -= 3
 
-    rotation_penalty = ((emp["id"] + week_seed) % 7) * 1.2
+    emp_rotation_seed = sum(ord(c) for c in str(emp["id"]))
+    rotation_penalty = ((emp_rotation_seed + week_seed) % 7) * 1.2
     score += rotation_penalty
 
     random.seed(f"{week_seed}-{emp['id']}-{shift['day']}-{shift['type']}")
