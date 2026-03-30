@@ -1,0 +1,120 @@
+{
+  "employees": {
+    "1": {
+      "hours_worked_this_month": 3263.5,
+      "last_week_shift_types": [
+        "Breakfast",
+        "Breakfast",
+        "Breakfast",
+        "Breakfast",
+        "Breakfast",
+        "Breakfast"
+      ],
+      "last_week_worked_weekend": true
+    },
+    "2": {
+      "hours_worked_this_month": 3285.0,
+      "last_week_shift_types": [
+        "Middle Shift",
+        "Middle Shift",
+        "Breakfast",
+        "Bakery"
+      ],
+      "last_week_worked_weekend": true
+    },
+    "3": {
+      "hours_worked_this_month": 3289.5,
+      "last_week_shift_types": [
+        "Breakfast",
+        "Breakfast",
+        "Breakfast",
+        "Breakfast",
+        "Breakfast",
+        "Evening Shift"
+      ],
+      "last_week_worked_weekend": true
+    },
+    "4": {
+      "hours_worked_this_month": 3272.0,
+      "last_week_shift_types": [
+        "Cafe and Breakfast Support",
+        "Cafe and Breakfast Support",
+        "Cafe and Breakfast Support",
+        "Cafe and Breakfast Support",
+        "Cafe and Breakfast Support"
+      ],
+      "last_week_worked_weekend": true
+    },
+    "5": {
+      "hours_worked_this_month": 3272.0,
+      "last_week_shift_types": [
+        "Evening Shift",
+        "Evening Shift",
+        "Closing Shift",
+        "Middle Shift",
+        "Closing Shift"
+      ],
+      "last_week_worked_weekend": true
+    },
+    "6": {
+      "hours_worked_this_month": 3284.0,
+      "last_week_shift_types": [
+        "Bakery",
+        "Bakery",
+        "Bakery",
+        "Breakfast and Bakery",
+        "Breakfast and Bakery"
+      ],
+      "last_week_worked_weekend": true
+    },
+    "7": {
+      "hours_worked_this_month": 3285.0,
+      "last_week_shift_types": [
+        "Evening Shift",
+        "Evening Shift",
+        "Evening Shift",
+        "Evening Shift",
+        "Dinner"
+      ],
+      "last_week_worked_weekend": true
+    },
+    "8": {
+      "hours_worked_this_month": 3134.0,
+      "last_week_shift_types": [
+        "Closing Shift",
+        "Closing Shift",
+        "Closing Shift",
+        "Closing Shift",
+        "Closing Shift"
+      ],
+      "last_week_worked_weekend": true
+    },
+    "9": {
+      "hours_worked_this_month": 3278.0,
+      "last_week_shift_types": [
+        "Middle Shift",
+        "Cafe and Breakfast Support",
+        "Middle Shift",
+        "Dinner",
+        "Middle Shift"
+      ],
+      "last_week_worked_weekend": true
+    },
+    "10": {
+      "hours_worked_this_month": 885.5,
+      "last_week_shift_types": [
+        "Middle Shift",
+        "Cafe and Breakfast Support"
+      ],
+      "last_week_worked_weekend": false
+    },
+    "11": {
+      "hours_worked_this_month": 878.0,
+      "last_week_shift_types": [
+        "Bakery",
+        "Bakery"
+      ],
+      "last_week_worked_weekend": false
+    }
+  }
+}

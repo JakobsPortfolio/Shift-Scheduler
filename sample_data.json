@@ -1,0 +1,659 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Laerke",
+            "skills": [
+                "Breakfast",
+                "Breakfast and Bakery",
+                "Bakery",
+                "Cafe and Breakfast Support"
+            ],
+            "employment_type": "full_time",
+            "weekly_target_hours": 40,
+            "monthly_target_hours": 160,
+            "max_hours_per_week": 48,
+            "max_consecutive_days": 5,
+            "preferred_days_off_per_week": 2
+        },
+        {
+            "id": 2,
+            "name": "Thiago",
+            "skills": [
+                "Breakfast",
+                "Breakfast and Bakery",
+                "Bakery",
+                "Cafe and Breakfast Support",
+                "Middle Shift",
+                "Dinner",
+                "Evening Shift"
+            ],
+            "employment_type": "full_time",
+            "weekly_target_hours": 40,
+            "monthly_target_hours": 160,
+            "max_hours_per_week": 48,
+            "max_consecutive_days": 5,
+            "preferred_days_off_per_week": 2
+        },
+        {
+            "id": 3,
+            "name": "Kevin",
+            "skills": [
+                "Breakfast",
+                "Breakfast and Bakery",
+                "Bakery",
+                "Cafe and Breakfast Support",
+                "Middle Shift",
+                "Dinner",
+                "Evening Shift",
+                "Closing Shift"
+            ],
+             "employment_type": "full_time",
+            "weekly_target_hours": 40,
+            "monthly_target_hours": 160,
+            "max_hours_per_week": 48,
+            "max_consecutive_days": 5,
+            "preferred_days_off_per_week": 2
+        },
+        {
+            "id": 4,
+            "name": "Valentino",
+            "skills": [
+                "Cafe and Breakfast Support",
+                "Middle Shift",
+                "Dinner",
+                "Evening Shift"
+            ],
+            "employment_type": "full_time",
+            "weekly_target_hours": 40,
+            "monthly_target_hours": 160,
+            "max_hours_per_week": 48,
+            "max_consecutive_days": 5,
+            "preferred_days_off_per_week": 2
+        },
+        {
+            "id": 5,
+            "name": "Baltazhar",
+            "skills": [
+                "Bakery",
+                "Cafe and Breakfast Support",
+                "Middle Shift",
+                "Dinner",
+                "Evening Shift",
+                "Closing Shift"
+            ],
+            "employment_type": "full_time",
+            "weekly_target_hours": 40,
+            "monthly_target_hours": 160,
+            "max_hours_per_week": 48,
+            "max_consecutive_days": 5,
+            "preferred_days_off_per_week": 2
+        },
+        {
+            "id": 6,
+            "name": "Tomas",
+            "skills": [
+                "Breakfast and Bakery",
+                "Bakery",
+                "Cafe and Breakfast Support",
+                "Middle Shift",
+                "Dinner",
+                "Evening Shift",
+                "Closing Shift"
+            ],
+             "employment_type": "full_time",
+            "weekly_target_hours": 40,
+            "monthly_target_hours": 160,
+            "max_hours_per_week": 48,
+            "max_consecutive_days": 5,
+            "preferred_days_off_per_week": 2
+        },
+        {
+            "id": 7,
+            "name": "Jakob",
+            "skills": [
+                "Middle Shift",
+                "Dinner",
+                "Evening Shift",
+                "Closing Shift",
+                "Cafe and Breakfast Support"
+            ],
+            "employment_type": "full_time",
+            "weekly_target_hours": 40,
+            "monthly_target_hours": 160,
+            "max_hours_per_week": 48,
+            "max_consecutive_days": 5,
+            "preferred_days_off_per_week": 2
+        },
+        {
+            "id": 8,
+            "name": "Jay",
+            "skills": [
+                "Closing Shift"
+            ],
+            "employment_type": "full_time",
+            "weekly_target_hours": 40,
+            "monthly_target_hours": 160,
+            "max_hours_per_week": 48,
+            "max_consecutive_days": 5,
+            "preferred_days_off_per_week": 2
+        },
+        {
+            "id": 9,
+            "name": "Laura",
+            "skills": [
+                "Middle Shift",
+                "Dinner",
+                "Evening Shift",
+                "Closing Shift",
+                "Cafe and Breakfast Support"
+            ],
+            "employment_type": "full_time",
+            "weekly_target_hours": 40,
+            "monthly_target_hours": 160,
+            "max_hours_per_week": 48,
+            "max_consecutive_days": 5,
+            "preferred_days_off_per_week": 2
+        },
+        {
+            "id": 10,
+            "name": "Mattias",
+            "skills": [
+               "Breakfast and Bakery",
+                "Bakery",
+                "Cafe and Breakfast Support",
+                "Middle Shift",
+                "Dinner",
+                "Evening Shift"
+            ],"employment_type": "part_time",
+            "weekly_target_hours": 10,
+            "monthly_target_hours": 40,
+            "max_hours_per_week": 16,
+            "max_consecutive_days": 3,
+            "preferred_days_off_per_week": 5,
+            "last_week_shift_types": [],
+            "last_week_worked_weekend": false,
+              "max_shifts_per_week": 2
+
+        },
+        {
+            "id": 11,
+            "name": "Nathalie",
+            "skills": [
+                "Breakfast and Bakery",
+                "Bakery",
+                "Cafe and Breakfast Support",
+                "Middle Shift",
+                "Dinner",
+                "Evening Shift"
+            ],"employment_type": "part_time",
+            "weekly_target_hours": 10,
+            "monthly_target_hours": 40,
+            "max_hours_per_week": 16,
+            "max_consecutive_days": 3,
+            "preferred_days_off_per_week": 5,
+            "last_week_shift_types": [],
+            "last_week_worked_weekend": false,
+              "max_shifts_per_week": 2
+
+        }
+    ],
+    "availability": [
+        {
+            "employee_id": 1,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "employee_id": 2,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "employee_id": 3,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "employee_id": 4,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "employee_id": 5,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "employee_id": 6,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "employee_id": 7,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "employee_id": 8,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "employee_id": 9,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "employee_id": 10,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        },
+        {
+            "employee_id": 11,
+            "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ]
+        }
+    ],
+    "shifts": [
+        {
+            "day": "Monday",
+            "start": "05:30",
+            "end": "13:00",
+            "type": "Breakfast",
+            "staff_needed": 2
+        },
+        {
+            "day": "Monday",
+            "start": "06:00",
+            "end": "14:00",
+            "type": "Bakery",
+            "staff_needed": 1
+        },
+        {
+            "day": "Monday",
+            "start": "09:00",
+            "end": "17:00",
+            "type": "Cafe and Breakfast Support",
+            "staff_needed": 1
+        },
+        {
+            "day": "Monday",
+            "start": "14:00",
+            "end": "22:00",
+            "type": "Middle Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Monday",
+            "start": "16:00",
+            "end": "00:00",
+            "type": "Evening Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Monday",
+            "start": "17:00",
+            "end": "01:00",
+            "type": "Closing Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Tuesday",
+            "start": "05:30",
+            "end": "13:00",
+            "type": "Breakfast",
+            "staff_needed": 2
+        },
+        {
+            "day": "Tuesday",
+            "start": "06:00",
+            "end": "14:00",
+            "type": "Bakery",
+            "staff_needed": 1
+        },
+        {
+            "day": "Tuesday",
+            "start": "09:00",
+            "end": "17:00",
+            "type": "Cafe and Breakfast Support",
+            "staff_needed": 1
+        },
+        {
+            "day": "Tuesday",
+            "start": "14:00",
+            "end": "22:00",
+            "type": "Middle Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Tuesday",
+            "start": "16:00",
+            "end": "00:00",
+            "type": "Evening Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Tuesday",
+            "start": "17:00",
+            "end": "01:00",
+            "type": "Closing Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Wednesday",
+            "start": "05:30",
+            "end": "13:00",
+            "type": "Breakfast",
+            "staff_needed": 2
+        },
+        {
+            "day": "Wednesday",
+            "start": "06:00",
+            "end": "14:00",
+            "type": "Bakery",
+            "staff_needed": 1
+        },
+        {
+            "day": "Wednesday",
+            "start": "09:00",
+            "end": "17:00",
+            "type": "Cafe and Breakfast Support",
+            "staff_needed": 1
+        },
+        {
+            "day": "Wednesday",
+            "start": "14:00",
+            "end": "22:00",
+            "type": "Middle Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Wednesday",
+            "start": "16:00",
+            "end": "00:00",
+            "type": "Evening Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Wednesday",
+            "start": "17:00",
+            "end": "01:00",
+            "type": "Closing Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Thursday",
+            "start": "05:30",
+            "end": "13:00",
+            "type": "Breakfast",
+            "staff_needed": 2
+        },
+        {
+            "day": "Thursday",
+            "start": "06:00",
+            "end": "14:00",
+            "type": "Bakery",
+            "staff_needed": 1
+        },
+        {
+            "day": "Thursday",
+            "start": "09:00",
+            "end": "17:00",
+            "type": "Cafe and Breakfast Support",
+            "staff_needed": 1
+        },
+        {
+            "day": "Thursday",
+            "start": "14:00",
+            "end": "22:00",
+            "type": "Middle Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Thursday",
+            "start": "16:00",
+            "end": "00:00",
+            "type": "Evening Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Thursday",
+            "start": "17:00",
+            "end": "01:00",
+            "type": "Closing Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Friday",
+            "start": "05:30",
+            "end": "13:00",
+            "type": "Breakfast",
+            "staff_needed": 2
+        },
+        {
+            "day": "Friday",
+            "start": "06:00",
+            "end": "14:00",
+            "type": "Bakery",
+            "staff_needed": 1
+        },
+        {
+            "day": "Friday",
+            "start": "09:00",
+            "end": "17:00",
+            "type": "Cafe and Breakfast Support",
+            "staff_needed": 1
+        },
+        {
+            "day": "Friday",
+            "start": "14:00",
+            "end": "22:00",
+            "type": "Middle Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Friday",
+            "start": "16:00",
+            "end": "00:00",
+            "type": "Evening Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Friday",
+            "start": "17:00",
+            "end": "01:00",
+            "type": "Closing Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Saturday",
+            "start": "05:30",
+            "end": "13:00",
+            "type": "Breakfast",
+            "staff_needed": 1
+        },
+        {
+            "day": "Saturday",
+            "start": "06:00",
+            "end": "14:00",
+            "type": "Breakfast and Bakery",
+            "staff_needed": 1
+        },
+        {
+            "day": "Saturday",
+            "start": "06:30",
+            "end": "14:30",
+            "type": "Bakery",
+            "staff_needed": 1
+        },
+        {
+            "day": "Saturday",
+            "start": "09:00",
+            "end": "17:00",
+            "type": "Cafe and Breakfast Support",
+            "staff_needed": 1
+        },
+        {
+            "day": "Saturday",
+            "start": "12:00",
+            "end": "20:00",
+            "type": "Middle Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Saturday",
+            "start": "14:00",
+            "end": "22:00",
+            "type": "Dinner",
+            "staff_needed": 1
+        },
+        {
+            "day": "Saturday",
+            "start": "16:00",
+            "end": "00:00",
+            "type": "Evening Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Saturday",
+            "start": "17:00",
+            "end": "01:00",
+            "type": "Closing Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Sunday",
+            "start": "05:30",
+            "end": "13:00",
+            "type": "Breakfast",
+            "staff_needed": 1
+        },
+        {
+            "day": "Sunday",
+            "start": "06:00",
+            "end": "14:00",
+            "type": "Breakfast and Bakery",
+            "staff_needed": 1
+        },
+        {
+            "day": "Sunday",
+            "start": "06:30",
+            "end": "14:30",
+            "type": "Bakery",
+            "staff_needed": 1
+        },
+        {
+            "day": "Sunday",
+            "start": "09:00",
+            "end": "17:00",
+            "type": "Cafe and Breakfast Support",
+            "staff_needed": 1
+        },
+        {
+            "day": "Sunday",
+            "start": "12:00",
+            "end": "20:00",
+            "type": "Middle Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Sunday",
+            "start": "14:00",
+            "end": "22:00",
+            "type": "Dinner",
+            "staff_needed": 1
+        },
+        {
+            "day": "Sunday",
+            "start": "16:00",
+            "end": "00:00",
+            "type": "Evening Shift",
+            "staff_needed": 1
+        },
+        {
+            "day": "Sunday",
+            "start": "17:00",
+            "end": "01:00",
+            "type": "Closing Shift",
+            "staff_needed": 1
+        }
+    ]
+}
