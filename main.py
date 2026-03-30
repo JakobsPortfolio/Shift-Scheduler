@@ -22,16 +22,33 @@ STATE_FILE = BASE_DIR / "schedule_state.json"
 
 class GenerateRequest(BaseModel):
     week_start: str | None = None
+    regenerate: bool | None = None
+    variation_seed: int | None = None
 
 
 def load_json_file(path: Path):
-    with open(path) as f:
+    with open(path, "r") as f:
         return json.load(f)
 
 
 def save_json_file(path: Path, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
+
+
+def ensure_state_file():
+    if not STATE_FILE.exists():
+        starter_state = {"employees": {}}
+
+        base_data = load_json_file(SAMPLE_DATA_FILE)
+        for emp in base_data.get("employees", []):
+            starter_state["employees"][str(emp["id"])] = {
+                "hours_worked_this_month": 0,
+                "last_week_shift_types": [],
+                "last_week_worked_weekend": False
+            }
+
+        save_json_file(STATE_FILE, starter_state)
 
 
 def merge_data_with_state(base_data, state_data):
@@ -46,25 +63,43 @@ def merge_data_with_state(base_data, state_data):
     return base_data
 
 
+@app.on_event("startup")
+def startup_event():
+    ensure_state_file()
+
+
 @app.get("/")
 def home():
     return {"status": "scheduler running"}
 
-# Demo endpoint
+
+@app.get("/health")
+def health():
+    return {"ok": True}
+
+
 @app.get("/generate")
 def generate_get():
+    ensure_state_file()
+
     base_data = load_json_file(SAMPLE_DATA_FILE)
     state_data = load_json_file(STATE_FILE)
     merged_data = merge_data_with_state(base_data, state_data)
 
     result = generate_schedule(merged_data)
-    save_json_file(STATE_FILE, result["next_state"])
+
+    try:
+        save_json_file(STATE_FILE, result["next_state"])
+    except Exception as e:
+        result["state_warning"] = f"Could not save state: {str(e)}"
 
     return result
 
-# Prod endpoint
+
 @app.post("/generate")
 def generate_post(payload: GenerateRequest):
+    ensure_state_file()
+
     base_data = load_json_file(SAMPLE_DATA_FILE)
     state_data = load_json_file(STATE_FILE)
     merged_data = merge_data_with_state(base_data, state_data)
@@ -73,6 +108,10 @@ def generate_post(payload: GenerateRequest):
         merged_data["week_start"] = payload.week_start
 
     result = generate_schedule(merged_data)
-    save_json_file(STATE_FILE, result["next_state"])
+
+    try:
+        save_json_file(STATE_FILE, result["next_state"])
+    except Exception as e:
+        result["state_warning"] = f"Could not save state: {str(e)}"
 
     return result
